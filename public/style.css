@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins, sans-serif;
+    font-size: 1rem;
+    /*background-color: red;*/
+}
+
+.main{
+    /*background-color: lightblue;*/
+    text-align: center;
+    margin: 20px;
+}
+
+#question-2, #question-3, #question-4, #question-5, #question-6, #final{
+    display: none;
+}
+
+img{
+    margin-top: 20px;
+    width: 100px;
+}
+
+.button{
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    background: blue;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: 500ms;
+    display: inline-block;
+}
+
+.button:hover{
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+}
+
+.titulo-main{
+    margin-top: 70px;
+}
+
+.subtitulo-light{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.subtitulo-bold{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+form{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15%;
+    background-color: lightgrey;
+}
+
+.radio-perguntas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.secao-2{
+    margin: 20px;
+    text-align: center;
+}
+
+.h2-secao-2{
+    margin-top: 70px;
+}
+
+.videos-video{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: lightslategray;
+    color: rgb(131, 131, 131);
+    font-size: 0.65rem;
+    font-weight: 400;
+    padding: 10px;
+}
