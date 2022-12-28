@@ -2,4 +2,4 @@
 
 Quiz simples utilizando somente Javascript.
 
-Muito usado em funis de venda para infoprodutos.
+Esse tipo de quiz é muito usado em funis de venda para infoprodutos.
